@@ -1,0 +1,13 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ELK log and data volumes
+elk-config/elasticsearch/data/
+elk-config/logstash/data/
+elk-config/kibana/data/
+test_data/
+ls_data/
+kb_data/
+*.log
