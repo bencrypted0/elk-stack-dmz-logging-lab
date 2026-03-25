@@ -1,5 +1,7 @@
 # ELK Stack Performance Monitoring Lab
 
+![](assets/elk_banner.png)
+
 Security is only as good as your visibility. You can have the most hardened firewall rules and the most carefully segmented network, but if you have no insight into what's actually flowing through it, you're flying blind. That's the gap a SIEM fills — and in this guide, we're going to fill it ourselves, from scratch.
 
 We're going to build a fully functional log monitoring pipeline using the ELK Stack — Elasticsearch, Logstash, and Kibana — deployed across a segmented lab network with pfSense as the firewall and an intentionally vulnerable web application as our monitoring target. No managed services, no shortcuts. Every component is configured by hand so you understand exactly what each piece does and why it's there.
